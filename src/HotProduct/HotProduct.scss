@@ -1,0 +1,20 @@
+#father {
+    display: flex;
+    #img{
+        .big img{
+            width:380px;
+            border: 1px solid black;
+        }
+        .small img{
+            width:120px;
+            border: 1px solid black;
+            margin:3px
+        }
+    }
+    #baby{
+       margin-left: 18px;
+       #right{
+           margin-top: 120px;
+       }
+    }
+}
